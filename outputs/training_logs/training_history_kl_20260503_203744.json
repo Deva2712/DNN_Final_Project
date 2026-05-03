@@ -1,0 +1,51 @@
+{
+  "timestamp": "20260503_203744",
+  "experiment_type": "training",
+  "metrics": {
+    "train_loss": [
+      0.5,
+      0.4,
+      0.35,
+      0.3,
+      0.28,
+      0.26,
+      0.25
+    ],
+    "val_loss": [
+      0.6,
+      0.5,
+      0.45,
+      0.42,
+      0.4,
+      0.39,
+      0.38
+    ],
+    "val_kl": [
+      0.25,
+      0.2,
+      0.18,
+      0.16,
+      0.15,
+      0.14,
+      0.135
+    ],
+    "val_js": [
+      0.12,
+      0.1,
+      0.09,
+      0.08,
+      0.075,
+      0.07,
+      0.068
+    ]
+  },
+  "config": {
+    "model": "ResNet18",
+    "loss_function": "kl_divergence",
+    "learning_rate": 0.0001,
+    "batch_size": 64,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001
+  },
+  "random_seed": 42
+}

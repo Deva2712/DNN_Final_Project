@@ -1,0 +1,12 @@
+{
+  "timestamp": "20260503_203745",
+  "experiment_type": "explainability",
+  "metrics": {
+    "num_cases": 5,
+    "kl_range": [
+      0.5,
+      0.9
+    ],
+    "analysis_date": "20260503_203745"
+  }
+}

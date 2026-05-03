@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260503_202425",
+  "experiment_type": "evaluation",
+  "metrics": {
+    "mean_kl": 0.1234,
+    "std_kl": 0.0456,
+    "mean_js": 0.0789,
+    "std_js": 0.0234,
+    "pearson_r": 0.8123,
+    "pearson_p": 1.23e-10,
+    "precision_at_100": 0.65,
+    "precision_at_200": 0.72,
+    "precision_at_500": 0.81
+  },
+  "config": {
+    "model": "ResNet18",
+    "loss_function": "kl_divergence",
+    "learning_rate": 0.0001,
+    "batch_size": 64,
+    "num_epochs": 50
+  },
+  "random_seed": 42
+}

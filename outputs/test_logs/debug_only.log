@@ -1,0 +1,39 @@
+2026-05-03 18:59:49 - root - INFO - setup_logging:87 - ================================================================================
+2026-05-03 18:59:49 - root - INFO - setup_logging:88 - Logging configured successfully
+2026-05-03 18:59:49 - root - INFO - setup_logging:89 - Console log level: DEBUG
+2026-05-03 18:59:49 - root - INFO - setup_logging:90 - Main log file: outputs/test_logs/comprehensive_test.log
+2026-05-03 18:59:49 - root - INFO - setup_logging:92 - Debug log file: outputs/test_logs/debug_only.log
+2026-05-03 18:59:49 - root - INFO - setup_logging:93 - ================================================================================
+2026-05-03 18:59:49 - __main__ - DEBUG - test_logging_levels:34 - This is a DEBUG message - batch-level details
+2026-05-03 18:59:49 - __main__ - INFO - test_logging_levels:35 - This is an INFO message - epoch-level progress
+2026-05-03 18:59:49 - __main__ - WARNING - test_logging_levels:36 - This is a WARNING message - potential issues
+2026-05-03 18:59:49 - __main__ - ERROR - test_logging_levels:37 - This is an ERROR message - validation failures
+2026-05-03 18:59:49 - __main__ - CRITICAL - test_logging_levels:38 - This is a CRITICAL message - execution-stopping errors
+2026-05-03 18:59:49 - src.logging_config - INFO - log_system_info:118 - ================================================================================
+2026-05-03 18:59:49 - src.logging_config - INFO - log_system_info:119 - System Information
+2026-05-03 18:59:49 - src.logging_config - INFO - log_system_info:120 - ================================================================================
+2026-05-03 18:59:49 - src.logging_config - INFO - log_system_info:121 - Platform: macOS-26.2-arm64-arm-64bit-Mach-O
+2026-05-03 18:59:49 - src.logging_config - INFO - log_system_info:122 - Python version: 3.13.5
+2026-05-03 18:59:49 - src.logging_config - INFO - log_system_info:123 - PyTorch version: 2.11.0
+2026-05-03 18:59:49 - src.logging_config - INFO - log_system_info:124 - CUDA available: False
+2026-05-03 18:59:49 - src.logging_config - INFO - log_system_info:129 - ================================================================================
+2026-05-03 18:59:49 - src.data_pipeline - INFO - load_cifar10h_data:176 - Loading CIFAR-10H dataset from ./cifar-10h-1.0.0/data...
+2026-05-03 18:59:49 - src.data_pipeline - DEBUG - load_cifar10h_data:197 - Loading counts from ./cifar-10h-1.0.0/data/cifar10h-counts.npy
+2026-05-03 18:59:49 - src.data_pipeline - DEBUG - load_cifar10h_data:198 - Loading probabilities from ./cifar-10h-1.0.0/data/cifar10h-probs.npy
+2026-05-03 18:59:49 - src.data_pipeline - INFO - load_cifar10h_data:217 - Successfully loaded CIFAR-10H data: counts (10000, 10), probs (10000, 10)
+2026-05-03 18:59:49 - src.data_pipeline - DEBUG - load_cifar10h_data:218 - Counts range: [0, 63]
+2026-05-03 18:59:49 - src.data_pipeline - DEBUG - load_cifar10h_data:219 - Probs range: [0.0000, 1.0000]
+2026-05-03 18:59:49 - src.data_pipeline - INFO - compute_soft_labels:242 - Computing soft labels from annotator counts...
+2026-05-03 18:59:49 - src.data_pipeline - DEBUG - compute_soft_labels:252 - Computing probability distributions for 100 samples
+2026-05-03 18:59:49 - src.data_pipeline - INFO - compute_soft_labels:279 - Successfully computed 100 soft label distributions
+2026-05-03 18:59:49 - src.data_pipeline - DEBUG - compute_soft_labels:280 - Soft label statistics: min=0.0000, max=1.0000, mean=0.1000
+2026-05-03 18:59:49 - src.data_pipeline - DEBUG - compute_entropy:425 - Computing Shannon entropy for 100 distributions...
+2026-05-03 18:59:49 - src.data_pipeline - DEBUG - compute_entropy:459 - Computed entropy statistics: min=0.000, max=2.316, mean=0.298, std=0.429
+2026-05-03 18:59:49 - __main__ - INFO - test_logging_levels:52 - Loaded 10000 samples
+2026-05-03 18:59:49 - __main__ - DEBUG - test_logging_levels:53 - Entropy statistics: min=0.000, max=2.316
+2026-05-03 18:59:49 - info_test - INFO - test_logging_levels:98 - This INFO message should appear
+2026-05-03 18:59:49 - info_test - WARNING - test_logging_levels:99 - This WARNING message should appear
+2026-05-03 18:59:49 - __main__ - ERROR - test_error_logging:122 - Caught error: Simulated error for testing
+2026-05-03 18:59:49 - __main__ - DEBUG - test_error_logging:123 - Error context: This was a simulated error for testing
+2026-05-03 18:59:49 - __main__ - WARNING - test_error_logging:126 - High loss value detected: 10.5 (threshold: 5.0)
+2026-05-03 18:59:49 - __main__ - WARNING - test_error_logging:127 - Slow convergence: validation loss not improving for 5 epochs
