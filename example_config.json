@@ -1,0 +1,14 @@
+{
+  "cifar10_dir": "./data",
+  "cifar10h_dir": "./cifar-10h-1.0.0/data",
+  "output_dir": "./outputs",
+  "checkpoint_dir": "./checkpoints",
+  "pretrain_epochs": 100,
+  "finetune_epochs": 50,
+  "loss_functions": ["kl", "js", "custom"],
+  "generate_visualizations": true,
+  "evaluate_robustness": false,
+  "device": "cuda",
+  "seed": 42,
+  "log_level": "INFO"
+}
