@@ -1,4 +1,0 @@
-loss_function,mean_kl,mean_js,pearson_r,precision_at_100
-kl,0.1234,0.0789,0.8123,0.65
-js,0.1456,0.0823,0.8234,0.67
-custom,0.1098,0.0756,0.8456,0.7

@@ -1,9 +1,0 @@
-2026-05-03 18:59:12 - root - INFO - setup_logging:87 - ================================================================================
-2026-05-03 18:59:12 - root - INFO - setup_logging:88 - Logging configured successfully
-2026-05-03 18:59:12 - root - INFO - setup_logging:89 - Console log level: DEBUG
-2026-05-03 18:59:12 - root - INFO - setup_logging:90 - Main log file: outputs/test_logs/test.log
-2026-05-03 18:59:12 - root - INFO - setup_logging:93 - ================================================================================
-2026-05-03 18:59:12 - __main__ - DEBUG - test_logging_setup:159 - This is a DEBUG message
-2026-05-03 18:59:12 - __main__ - INFO - test_logging_setup:160 - This is an INFO message
-2026-05-03 18:59:12 - __main__ - WARNING - test_logging_setup:161 - This is a WARNING message
-2026-05-03 18:59:12 - __main__ - ERROR - test_logging_setup:162 - This is an ERROR message

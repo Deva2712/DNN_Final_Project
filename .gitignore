@@ -1,63 +1,50 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+# Datasets (never push)
+cifar-100-python/
+cifar-10h-1.0.0/
+data/
+*.npy
+*.zip
+*.tar
+*.gz
 
-# Virtual environments
-venv/
-env/
-ENV/
-.venv
+# Demo and verify scripts (not needed in repo)
+demo_*.py
+verify_*.py
+test_explainability_simple.py
 
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
+# Task/implementation summary docs (internal only)
+TASK_*.md
+CHECKPOINT_*.md
+PHASE1_*.md
+TESTING_INFRASTRUCTURE_SUMMARY.md
+SCRIPTS_README.md
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Kiro spec files (internal)
+.kiro/
 
-# PyTorch
-*.pth
-*.pt
-
-# Data
-data/cifar-10-batches-py/
-data/cifar-10-python.tar.gz
-
-# Outputs
+# Output artifacts
 outputs/
 checkpoints/
-*.log
 
-# Testing
-.pytest_cache/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Coverage
 .coverage
 htmlcov/
-.hypothesis/
+.pytest_cache/
 
-# Temporary files
-*.tmp
-*.bak
-tmp/
-temp/
+# IDE
+.vscode/
+.DS_Store
+
+# Documents
+*.pdf
+*.docx
+
+# Hypothesis database
+.hypothesis/

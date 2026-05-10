@@ -1,9 +1,0 @@
-{
-  "cifar10_data_dir": "./data",
-  "cifar10h_data_dir": "./cifar-10h-1.0.0/data",
-  "train_size": 6000,
-  "val_size": 2000,
-  "test_size": 2000,
-  "random_seed": 42,
-  "epsilon": 1e-07
-}
