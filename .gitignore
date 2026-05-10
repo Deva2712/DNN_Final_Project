@@ -42,8 +42,8 @@ htmlcov/
 .vscode/
 .DS_Store
 
-# Documents
-*.pdf
+# Documents (allow DNN_Report.pdf explicitly)
+!DNN_Report.pdf
 *.docx
 
 # Hypothesis database
